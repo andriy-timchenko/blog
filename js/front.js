@@ -253,7 +253,7 @@ $(function () {
 function map() {
 
     var mapId = 'map',
-        mapCenter = [50.14, 32.22],
+        mapCenter = [50.120049, 32.392188],
         mapMarker = true;
 
     if ($('#' + mapId).length > 0) {
