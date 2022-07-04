@@ -253,8 +253,7 @@ $(function () {
 function map() {
     // var map = L.map('map').setView([50.120071,32.392192], 13);
     var mapId = 'map',
-        // mapCenter = [50.120071, 32.392192],
-        mapCenter = (new L.LatLng(50.120071, 32.392192), 8),
+        mapCenter = [50.120071, 32.392192],
         mapMarker = true;
 
     if ($('#' + mapId).length > 0) {
