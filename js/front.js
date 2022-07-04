@@ -253,7 +253,7 @@ $(function () {
 function map() {
     // var map = L.map('map').setView([50.120071,32.392192], 13);
     var mapId = 'map',
-        mapCenter = [50.120071, 32.392192],
+        mapCenterNew = [50.120071, 32.392192],
         mapMarker = true;
 
     if ($('#' + mapId).length > 0) {
@@ -274,7 +274,7 @@ function map() {
         }
 
         var map = L.map(mapId, {
-            center: mapCenter,
+            center: mapCenterNew,
             zoom: 13,
             dragging: dragging,
             tap: tap,
@@ -296,7 +296,7 @@ function map() {
         });
 
         if (mapMarker) {
-            var marker = L.marker(mapCenter, {
+            var marker = L.marker(mapCenterNew, {
                 icon: icon
             }).addTo(map);
 
