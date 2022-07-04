@@ -251,9 +251,9 @@ $(function () {
 // ------------------------------------------------------ //
 
 function map() {
-
+    var map = L.map('map').setView([50.120071,32.392192], 13);
     var mapId = 'map',
-        mapCenter = [350.120071, 132.392192],  
+        mapCenter = [53.14, 8.22],
         mapMarker = true;
 
     if ($('#' + mapId).length > 0) {
