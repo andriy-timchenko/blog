@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Моя домашня мережа</title>
+    <link>https://andreiy.timchenko.pp.ua/en/tags/</link>
+    <description>Recent content in Tags on Моя домашня мережа</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ua</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/andriy-timchenko&#34; title=&#34;Andriy Timchenko&#34;&gt; AT &lt;/a&gt; 2022</copyright><atom:link href="https://andreiy.timchenko.pp.ua/en/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Моя домашня мережа</title>
+    <link>https://andreiy.timchenko.pp.ua/categories/</link>
+    <description>Recent content in Categories on Моя домашня мережа</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ua</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/andriy-timchenko&#34; title=&#34;Andriy Timchenko&#34;&gt; AT &lt;/a&gt; 2022</copyright>
+    <lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0300</lastBuildDate><atom:link href="https://andreiy.timchenko.pp.ua/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://andreiy.timchenko.pp.ua/categories/development/</link>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0300</pubDate>
+      
+      <guid>https://andreiy.timchenko.pp.ua/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://andreiy.timchenko.pp.ua/categories/golang/</link>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0300</pubDate>
+      
+      <guid>https://andreiy.timchenko.pp.ua/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
