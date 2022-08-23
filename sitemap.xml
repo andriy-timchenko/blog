@@ -1,16 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://andreiy.timchenko.pp.ua/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://andreiy.timchenko.pp.ua/ua/sitemap.xml</loc>
-    
-      <lastmod>2022-07-24T00:00:00+03:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cctv/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/development/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/shinobi/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/shinobi-cctv/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/diagram/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/diagram-support/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/mermaid/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2019-08-25T00:52:59+03:00</lastmod>
+  </url><url>
+    <loc>/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+</urlset>
