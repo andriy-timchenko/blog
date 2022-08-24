@@ -2,134 +2,134 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Andriy Timchenko Blog</title>
-    <link>https://blog.argo.pp.ua/tags/</link>
+    <link>https://blog.timchenko.pp.ua/tags/</link>
     <description>Recent content in Tags on Andriy Timchenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.argo.pp.ua/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dns</title>
-      <link>https://blog.argo.pp.ua/tags/dns/</link>
+      <link>https://blog.timchenko.pp.ua/tags/dns/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/dns/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NSD</title>
-      <link>https://blog.argo.pp.ua/tags/nsd/</link>
+      <link>https://blog.timchenko.pp.ua/tags/nsd/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/nsd/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/nsd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unbound</title>
-      <link>https://blog.argo.pp.ua/tags/unbound/</link>
+      <link>https://blog.timchenko.pp.ua/tags/unbound/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/unbound/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/unbound/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CCTV</title>
-      <link>https://blog.argo.pp.ua/tags/cctv/</link>
+      <link>https://blog.timchenko.pp.ua/tags/cctv/</link>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/cctv/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/cctv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shinobi</title>
-      <link>https://blog.argo.pp.ua/tags/shinobi/</link>
+      <link>https://blog.timchenko.pp.ua/tags/shinobi/</link>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/shinobi/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/shinobi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>diagram</title>
-      <link>https://blog.argo.pp.ua/tags/diagram/</link>
+      <link>https://blog.timchenko.pp.ua/tags/diagram/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/diagram/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/diagram/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mermaid</title>
-      <link>https://blog.argo.pp.ua/tags/mermaid/</link>
+      <link>https://blog.timchenko.pp.ua/tags/mermaid/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/mermaid/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/mermaid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>https://blog.argo.pp.ua/tags/emoji/</link>
+      <link>https://blog.timchenko.pp.ua/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/emoji/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://blog.argo.pp.ua/tags/development/</link>
+      <link>https://blog.timchenko.pp.ua/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/development/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://blog.argo.pp.ua/tags/go/</link>
+      <link>https://blog.timchenko.pp.ua/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/go/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://blog.argo.pp.ua/tags/golang/</link>
+      <link>https://blog.timchenko.pp.ua/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/golang/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://blog.argo.pp.ua/tags/hugo/</link>
+      <link>https://blog.timchenko.pp.ua/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/hugo/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://blog.argo.pp.ua/tags/templates/</link>
+      <link>https://blog.timchenko.pp.ua/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/templates/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://blog.argo.pp.ua/tags/themes/</link>
+      <link>https://blog.timchenko.pp.ua/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/tags/themes/</guid>
+      <guid>https://blog.timchenko.pp.ua/tags/themes/</guid>
       <description></description>
     </item>
     

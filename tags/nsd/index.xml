@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NSD on Andriy Timchenko Blog</title>
-    <link>https://blog.argo.pp.ua/tags/nsd/</link>
+    <link>https://blog.timchenko.pp.ua/tags/nsd/</link>
     <description>Recent content in NSD on Andriy Timchenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.argo.pp.ua/tags/nsd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/nsd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authoritative DNS name server - NSD</title>
-      <link>https://blog.argo.pp.ua/post/nsd/</link>
+      <link>https://blog.timchenko.pp.ua/post/nsd/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/post/nsd/</guid>
+      <guid>https://blog.timchenko.pp.ua/post/nsd/</guid>
       <description>The NLnet Labs Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description>
     </item>
     

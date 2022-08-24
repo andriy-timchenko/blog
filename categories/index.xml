@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Andriy Timchenko Blog</title>
-    <link>https://blog.argo.pp.ua/categories/</link>
+    <link>https://blog.timchenko.pp.ua/categories/</link>
     <description>Recent content in Categories on Andriy Timchenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
-    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.argo.pp.ua/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>https://blog.argo.pp.ua/categories/development/</link>
+      <link>https://blog.timchenko.pp.ua/categories/development/</link>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/categories/development/</guid>
+      <guid>https://blog.timchenko.pp.ua/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://blog.argo.pp.ua/categories/golang/</link>
+      <link>https://blog.timchenko.pp.ua/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.argo.pp.ua/categories/golang/</guid>
+      <guid>https://blog.timchenko.pp.ua/categories/golang/</guid>
       <description></description>
     </item>
     
