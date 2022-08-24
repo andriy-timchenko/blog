@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Validating, recursive, caching DNS resolver unbound | Andriy Timchenko Blog</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+  
+  
+<meta name="keywords" content="Andriy Timchenko Blog">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Validating, recursive, caching DNS resolver - Unbound">
+<meta property="og:description" content="Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you">
+<meta property="og:url" content="/post/unbound/">
+<meta property="og:image" content="/images/Unbound_FC_Shaded_cropped.webp">
+<link rel="canonical" href="/post/unbound/">
+<link rel="apple-touch-icon" sizes="180x180" href='/images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='/images/icons/favicon-16x16.png'>
+<link rel="manifest" href='/images/icons/site.webmanifest'>
+
+<link rel="stylesheet" href="/css/styles.86c6da248e485cdc7f340baeb04c29cf0499e12a33a387104028f046c1d4ba15aa3ef8a4bf8f44a2fba7f0263053fa54dc4d2f2baa3d6c8ebb3c69f7bdbded2b.css" integrity="sha512-hsbaJI5IXNx/NAuusEwpzwSZ4Sozo4cQQCjwRsHUuhWqPvikv49Eovun8CYwU/pU3E0vK6o9bI67PGn3vb3tKw==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="/about/" class="nav_item">About</a>
+      <a href="/" class="nav_item">Blog</a>
+      <a href="/categories" class="nav_item">Category</a>
+      <a href="/tags" class="nav_item">Tag</a>
+    <div class="nav-close"></div><div class="color_mode">
+<label for="mode">Toggle Dark Mode</label>
+<input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="/" class="nav-brand nav_item">Andriy Timchenko Blog</a>
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class="post_date">24. August 2022</p>
+      <h1 class="post_title">Validating, recursive, caching DNS resolver - Unbound</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+          
+          <img src="/images/Unbound_FC_Shaded_cropped.webp" alt="Unbound_FC_Shaded_cropped.webp" class="post_thumbnail">
+        
+          <p>Unbound is a validating, recursive, caching DNS resolver. It is designed to be
+fast and lean and incorporates modern features based on open standards. If you
+have any feedback, we would love to hear from you. Don’t hesitate to
+<a href="https://github.com/NLnetLabs/unbound/issues/new" target="_blank" rel="noopener">create an issue on Github</a>
+or post a message on the <a href="https://lists.nlnetlabs.nl/mailman/listinfo/unbound-users" target="_blank" rel="noopener">Unbound mailing list</a>.
+You can learn more about Unbound by reading our
+<a href="https://unbound.docs.nlnetlabs.nl/" target="_blank" rel="noopener">documentation</a>.</p>
+<h4 id="compiling">Compiling <a href="#compiling">¶</a></h4><p>Make sure you have the C toolchain, OpenSSL and its include files, and libexpat
+installed. Unbound can be compiled and installed using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">./configure &amp;&amp; make &amp;&amp; make install
+</span></span></code></pre></div><p>You can use libevent if you want. libevent is useful when using many (10000)
+outgoing ports. By default max 256 ports are opened at the same time and the
+builtin alternative is equally capable and a little faster.</p>
+<p>Use the <code>--with-libevent=dir</code> configure option to compile Unbound with libevent
+support.</p>
+<h4 id="unbound-configuration">Unbound configuration <a href="#unbound-configuration">¶</a></h4><p>All of Unbound&rsquo;s configuration options are described in the man pages, which
+will be installed and are available on the Unbound
+<a href="https://unbound.docs.nlnetlabs.nl/" target="_blank" rel="noopener">documentation page</a>.</p>
+<p>An example configuration file is located in
+<a href="https://github.com/NLnetLabs/unbound/blob/master/doc/example.conf.in" target="_blank" rel="noopener">doc/example.conf</a>.</p>
+<h4 id="security-policy">Security Policy <a href="#security-policy">¶</a></h4><h4 id="supported-versions">Supported Versions <a href="#supported-versions">¶</a></h4><p>NLnet Labs adheres to the straightforward, semantic versioning scheme that is
+commonly used in the software industry.</p>
+<p>Support is provided in respect of the latest release, i.e. releases with the
+highest minor and patch version level. We do not backport security fixes to
+older (minor) versions. In the event a new major version is released (e.g.  from
+3.2.18 to 4.0.0), support will also be provided on the latest minor  version of
+the previous major version (3.2.18) for a period of one year from the release of
+the new major version (4.0.0).</p>
+<p>In the event that, during this period, a new patch or minor version of the
+previous major version is released, then support on these versions will only be
+provided for the remainder of the one-year-period.</p>
+<p>You can find detailed information on our software support policy here:</p>
+<p><a href="https://www.nlnetlabs.nl/support/software-support-policy/" target="_blank" rel="noopener">https://www.nlnetlabs.nl/support/software-support-policy/</a></p>
+<h4 id="reporting-a-vulnerability">Reporting a Vulnerability <a href="#reporting-a-vulnerability">¶</a></h4><p>We take security very seriously. If you have discovered a security vulnerability
+in one of our projects and you would like to report it to us, you can send an
+encrypted message to our Security Entry Point.</p>
+<p>Details are described here:</p>
+<p><a href="https://www.nlnetlabs.nl/security-report/" target="_blank" rel="noopener">https://www.nlnetlabs.nl/security-report/</a></p>
+  
+        </div>
+        <div class="post_extra mb-2">
+          
+<div onclick="topFunction()" id="top" class="copy" data-before="Back To Top" data-after="Back To Top">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+
+<script>
+backtotop = document.getElementById("top");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backtotop.style.display = "block";
+  } else {
+    backtotop.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href="/" class="post_nav"><span class="post_next">The Latest 
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;Andriy Timchenko Blog</p>
+  <p class="attribution upcase">Powered by  <a href = 'https://gohugo.io/' target = '_blank' title = 'Powered by HOGO' rel = 'nonopener'>hugo</a></p>
+</footer>
+
+
+<script src="/js/index.min.ee9dcceeab4b8cf35a24e5f22a450fa1fef2897068ea9a9a34a7de6d720a42b4c21b6ecef8c05bf1bdcb2b7e1ffd152b81b1976183571090ec6dc4bad22c7b3e.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

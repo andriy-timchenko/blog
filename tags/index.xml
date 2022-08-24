@@ -5,8 +5,35 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Andriy Timchenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2022, Andiy; All rights reserved.</copyright>
-    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dns</title>
+      <link>/tags/dns/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSD</title>
+      <link>/tags/nsd/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unbound</title>
+      <link>/tags/unbound/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unbound/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>CCTV</title>
       <link>/tags/cctv/</link>
