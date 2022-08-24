@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dns on Andriy Timchenko Blog</title>
-    <link>/tags/dns/</link>
+    <link>https://blog.argo.pp.ua/tags/dns/</link>
     <description>Recent content in dns on Andriy Timchenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.argo.pp.ua/tags/dns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authoritative DNS name server - NSD</title>
-      <link>/post/nsd/</link>
+      <link>https://blog.argo.pp.ua/post/nsd/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/nsd/</guid>
+      <guid>https://blog.argo.pp.ua/post/nsd/</guid>
       <description>The NLnet Labs Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description>
     </item>
     
     <item>
       <title>Validating, recursive, caching DNS resolver - Unbound</title>
-      <link>/post/unbound/</link>
+      <link>https://blog.argo.pp.ua/post/unbound/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/unbound/</guid>
+      <guid>https://blog.argo.pp.ua/post/unbound/</guid>
       <description>Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the Unbound mailing list. You can learn more about Unbound by reading our documentation.
 Compiling ¶Make sure you have the C toolchain, OpenSSL and its include files, and libexpat installed.</description>
     </item>
