@@ -37,7 +37,7 @@ Lightweight: runs smoothly with minimal hardware and software requirements</desc
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.timchenko.pp.ua/post/nsd/</guid>
-      <description>The NLnet Labs Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description>
+      <description>The NLnet Labs - Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description>
     </item>
     
     <item>
