@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pi-hole on Andriy Timchenko Blog</title>
+    <link>https://blog.timchenko.pp.ua/tags/pi-hole/</link>
+    <description>Recent content in Pi-hole on Andriy Timchenko Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
+    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/pi-hole/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title>
+      <link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid>
+      <description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
+Resolute: content is blocked in non-browser locations, such as ad-laden mobile apps and smart TVs
+Responsive: seamlessly speeds up the feel of everyday browsing by caching DNS queries
+Lightweight: runs smoothly with minimal hardware and software requirements</description>
+    </item>
+    
+  </channel>
+</rss>

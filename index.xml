@@ -8,6 +8,30 @@
     <copyright>Copyright © 2022, Andriy; All rights reserved.</copyright>
     <lastBuildDate>Sun, 25 Aug 2019 00:52:59 +0300</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Home Assistant</title>
+      <link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid>
+      <description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
+Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+Awaken your home ¶Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+The first step is to install Home Assistant.</description>
+    </item>
+    
+    <item>
+      <title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title>
+      <link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid>
+      <description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
+Resolute: content is blocked in non-browser locations, such as ad-laden mobile apps and smart TVs
+Responsive: seamlessly speeds up the feel of everyday browsing by caching DNS queries
+Lightweight: runs smoothly with minimal hardware and software requirements</description>
+    </item>
+    
+    <item>
       <title>Authoritative DNS name server - NSD</title>
       <link>https://blog.timchenko.pp.ua/post/nsd/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
@@ -38,7 +62,7 @@ Defeats Limits ¶Don&amp;rsquo;t be held back by a maximum number of streams bas
     </item>
     
     <item>
-      <title>Hugo v0.93.0 - Mermaid Diagrams</title>
+      <title>Diagram Support Hugo v0.93.0 - Mermaid Diagrams</title>
       <link>https://blog.timchenko.pp.ua/post/diagram-support/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -47,6 +71,18 @@ Defeats Limits ¶Don&amp;rsquo;t be held back by a maximum number of streams bas
 layouts/_default/_markup/render-codeblock-mermaid.html:
 1&amp;lt;div class=&amp;#34;mermaid&amp;#34;&amp;gt; 2 {{- .Inner | safeHTML }} 3&amp;lt;/div&amp;gt; 4{{ .Page.Store.Set &amp;#34;hasMermaid&amp;#34; true }} And then include this snippet at the bottom of the content template (below .Content):
 1{{ if .Page.Store.Get &amp;#34;hasMermaid&amp;#34; }} 2 &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 3 &amp;lt;script&amp;gt; 4 mermaid.initialize({ startOnLoad: true }); 5 &amp;lt;/script&amp;gt; 6{{ end }} With that you can use the mermaid language in Markdown code blocks:</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>https://blog.timchenko.pp.ua/about/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/about/</guid>
+      <description>All the technologies that are in the posts of this blog, I use in my home network, and this blog is powered by HUGO
+Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
@@ -66,17 +102,6 @@ layouts/_default/_markup/render-codeblock-mermaid.html:
       <guid>https://blog.timchenko.pp.ua/post/creating-a-new-theme/</guid>
       <description>Introduction ¶This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://blog.timchenko.pp.ua/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
-https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
