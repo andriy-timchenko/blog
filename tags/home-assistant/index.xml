@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home Assistant on Andriy Timchenko Blog</title>
-    <link>https://blog.timchenko.pp.ua/tags/home-assistant/</link>
-    <description>Recent content in Home Assistant on Andriy Timchenko Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
-    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Home Assistant</title>
-      <link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid>
-      <description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home Assistant on Andriy Timchenko Blog</title><link>https://blog.timchenko.pp.ua/tags/home-assistant/</link><description>Recent content in Home Assistant on Andriy Timchenko Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright><lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/home-assistant/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant</title><link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link><pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid><description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
 Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 Awaken your home ¶Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-The first step is to install Home Assistant.</description>
-    </item>
-    
-  </channel>
-</rss>
+The first step is to install Home Assistant.</description></item></channel></rss>

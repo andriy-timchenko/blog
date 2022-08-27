@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Shinobi on Andriy Timchenko Blog</title>
-    <link>https://blog.timchenko.pp.ua/tags/shinobi/</link>
-    <description>Recent content in Shinobi on Andriy Timchenko Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
-    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/shinobi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Shinobi - The open source CCTV solution</title>
-      <link>https://blog.timchenko.pp.ua/post/shinobi-cctv/</link>
-      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/shinobi-cctv/</guid>
-      <description>Shinobi is Open Source, written in Node.js, and real easy to use. It is the future of CCTV and NVR for developers and end-users alike. It is catered to by professionals and most importantly by the one who created it.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shinobi on Andriy Timchenko Blog</title><link>https://blog.timchenko.pp.ua/tags/shinobi/</link><description>Recent content in Shinobi on Andriy Timchenko Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright><lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/shinobi/index.xml" rel="self" type="application/rss+xml"/><item><title>Shinobi - The open source CCTV solution</title><link>https://blog.timchenko.pp.ua/post/shinobi-cctv/</link><pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/shinobi-cctv/</guid><description>Shinobi is Open Source, written in Node.js, and real easy to use. It is the future of CCTV and NVR for developers and end-users alike. It is catered to by professionals and most importantly by the one who created it.
 SHINOBI DOCS Get Started ¶Some Aspects ¶Shinobi can be used as a Baby Monitor, Construction Site Montage Viewer, Store Camera DVR, and much more.
-Defeats Limits ¶Don&amp;rsquo;t be held back by a maximum number of streams based on browser.</description>
-    </item>
-    
-  </channel>
-</rss>
+Defeats Limits ¶Don&amp;rsquo;t be held back by a maximum number of streams based on browser.</description></item></channel></rss>

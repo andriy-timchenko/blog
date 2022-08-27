@@ -1,35 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Network on Andriy Timchenko Blog</title>
-    <link>https://blog.timchenko.pp.ua/tags/network/</link>
-    <description>Recent content in Network on Andriy Timchenko Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
-    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/network/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Home Assistant</title>
-      <link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid>
-      <description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network on Andriy Timchenko Blog</title><link>https://blog.timchenko.pp.ua/tags/network/</link><description>Recent content in Network on Andriy Timchenko Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright><lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/tags/network/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant</title><link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link><pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid><description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
 Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 Awaken your home ¶Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-The first step is to install Home Assistant.</description>
-    </item>
-    
-    <item>
-      <title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title>
-      <link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid>
-      <description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
+The first step is to install Home Assistant.</description></item><item><title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title><link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link><pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid><description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
 Resolute: content is blocked in non-browser locations, such as ad-laden mobile apps and smart TVs
 Responsive: seamlessly speeds up the feel of everyday browsing by caching DNS queries
-Lightweight: runs smoothly with minimal hardware and software requirements</description>
-    </item>
-    
-  </channel>
-</rss>
+Lightweight: runs smoothly with minimal hardware and software requirements</description></item></channel></rss>

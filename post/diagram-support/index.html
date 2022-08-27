@@ -1,233 +1,94 @@
-<!DOCTYPE html>
-<html lang="en" >
-  <head>
-  <title>Diagram support hugo v0.93.0 mermaid diagrams | Andriy Timchenko Blog</title>
-  <meta charset='utf-8'>
-  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-  
-  
-<meta name="keywords" content="Andriy Timchenko Blog">
-<meta property="og:locale" content='en'>
-<meta property="og:type" content="article">
-<meta property="og:title" content="Diagram Support Hugo v0.93.0 - Mermaid Diagrams">
-<meta property="og:description" content="Hugo currently does not provide default templates for Mermaid diagrams. But you can easily add your own. One way to do it would be to create">
-<meta property="og:url" content="https://blog.timchenko.pp.ua/post/diagram-support/">
-<meta property="og:image" content="https://blog.timchenko.pp.ua/images/diagram-support.webp">
-<link rel="canonical" href="https://blog.timchenko.pp.ua/post/diagram-support/">
-<link rel="apple-touch-icon" sizes="180x180" href='https://blog.timchenko.pp.ua/images/icons/apple-touch-icon.png'>
-<link rel="icon" type="image/png" sizes="32x32" href='https://blog.timchenko.pp.ua/images/icons/favicon-32x32.png'>
-<link rel="icon" type="image/png" sizes='16x16' href='https://blog.timchenko.pp.ua/images/icons/favicon-16x16.png'>
-<link rel="manifest" href='https://blog.timchenko.pp.ua/images/icons/site.webmanifest'>
-
-<link rel="stylesheet" href="https://blog.timchenko.pp.ua/css/styles.4d0d527480b2d0e79ed8d0c056ac2e0cc61b654364d4cf2ad21dcc245a636c8395f9965e28a8e54a7072a4450b931aaa28f92123db3b1a75b1a4daa037c1d1cc.css" integrity="sha512-TQ1SdICy0Oee2NDAVqwuDMYbZUNk1M8q0h3MJFpjbIOV&#43;ZZeKKjlSnBypEULkxqqKPkhI9s7GnWxpNqgN8HRzA==">
-</head>
-
-  <body>
-    <div class="nav-drop">
-  <div class="nav-body">
-      <a href="https://blog.timchenko.pp.ua/about/" class="nav_item">About</a>
-      <a href="https://blog.timchenko.pp.ua" class="nav_item">Blog</a>
-      <a href="https://blog.timchenko.pp.ua/categories" class="nav_item">Category</a>
-      <a href="https://blog.timchenko.pp.ua/tags" class="nav_item">Tag</a>
-    <div class="nav-close"></div><div class="color_mode">
-<label for="mode">Toggle Dark Mode</label>
-<input type="checkbox" class="color_choice" id="mode">
-</div>
-
-  </div>
-</div>
-<header class="nav">
-  <nav class="nav-menu">
-    <a href="https://blog.timchenko.pp.ua" class="nav-brand nav_item">Andriy Timchenko Blog</a>
-    <div class="nav_bar-wrap">
-      <div class="nav_bar"></div>
-    </div>
-  </nav>
-</header>
-
-
-    <main>
-      
-  <div class="wrap mt post">
-    <div><p class="post_date">20. August 2022</p>
-      <h1 class="post_title">Diagram Support Hugo v0.93.0 - Mermaid Diagrams</h1>
-      <div class="post_body">
-        <div class="post_inner">
-        
-          
-          <img src="https://blog.timchenko.pp.ua/images/diagram-support.webp" alt="diagram-support.webp" class="post_thumbnail">
-        
-          <p>Hugo currently does not provide default templates for Mermaid diagrams. But you can easily add your own. One way to do it would be to create</p>
-<p><code>layouts/_default/_markup/render-codeblock-mermaid.html:</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mermaid&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln">2</span><span class="cl">  {{- .Inner | safeHTML }}
-</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln">4</span><span class="cl">{{ .Page.Store.Set &#34;hasMermaid&#34; true }}
-</span></span></code></pre></div><p>And then include this snippet at the bottom of the content template (below <code>.Content</code>):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl">{{ if .Page.Store.Get &#34;hasMermaid&#34; }}
-</span></span><span class="line"><span class="ln">2</span><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="nx">mermaid</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span> <span class="nx">startOnLoad</span><span class="o">:</span> <span class="kc">true</span> <span class="p">});</span>
-</span></span><span class="line"><span class="ln">5</span><span class="cl">  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln">6</span><span class="cl">{{ end }}
-</span></span></code></pre></div><p>With that you can use the <code>mermaid</code> language in Markdown code blocks:</p>
-<h4 id="gitgraph-diagrams">Gitgraph Diagrams <a href="#gitgraph-diagrams">¶</a></h4><div class="mermaid">    gitGraph
-       commit id: "ZERO"
-       branch develop
-       commit id:"A"
-       checkout main
-       commit id:"ONE"
-       checkout develop
-       commit id:"B"
-       checkout main
-       commit id:"TWO"
-       cherry-pick id:"B"
-       commit id:"THREE"
-       checkout develop
-       commit id:"C23"
-  </div>
-  <h4 id="my-home-local-network-diaram">My Home Local Network diaram <a href="#my-home-local-network-diaram">¶</a></h4><div class="mermaid">  graph TD
-    FTT[ UT] --> |ftth| U(innbox G21)
-    U[ Innbox G21] -->|wan| A(RBD53iG-5HacD2HnD)
-    A[ RBD53iG-5HacD2HnD] -->|in| DNS(DNS)
-    DNS[ DNS] --> |out| A[ RBD53iG-5HacD2HnD] 
-    A[ RBD53iG-5HacD2HnD] -->|lan| HS(Hassio)
-    A[ RBD53iG-5HacD2HnD] -->|lan| T1(Desctop)
-    A[ RBD53iG-5HacD2HnD] -->|lan| PS(POE)
-    A[ RBD53iG-5HacD2HnD] -->|wlan| E[Cam w01]
-    A[ RBD53iG-5HacD2HnD] -->|wlan| E2[Cam w02]
-    A[ RBD53iG-5HacD2HnD] -->|wlan| E1[iPad2]
-    PS -->|poe| R1[RLC 512]
-    PS -->|poe| R2[RLC 512]
-    HS <--> |usb| ZB( Coordinator ) 
-    ZB[ Coordinator] --> |wbee| ZP1(bm1)
-    ZB[ Coordinator] --> |wbee| ZP2(bm2)
-    ZB[ Coordinator] --> |wbee| ZP3(dw1)
-    ZB[ Coordinator] --> |wbee| ZP4(dw2)
-    ZB[ Coordinator] --> |wbee| ZP5(lp1)
-    ZB[ Coordinator] --> |wbee| ZP6(lp2)
-    ZB[ Coordinator] --> |wbee| ZP7(qp)
-  </div>
-  <h4 id="sequence-diagram">Sequence diagram <a href="#sequence-diagram">¶</a></h4><div class="mermaid">pie showData
-    title Key elements in Product X
-    "Calcium" : 42.96
-    "Potassium" : 50.05
-    "Magnesium" : 10.01
-    "Iron" :  5
-  </div>
-  <h2 id="a-stadium-shaped-node">A stadium-shaped node <a href="#a-stadium-shaped-node">¶</a></h2><div class="mermaid">erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-  </div>
-  <div class="mermaid">%%{init: {'theme':'base'}}%%
-        graph TD
-          A[Christmas] -->|Get money| B(Go shopping)
-          B --> C{Let me think}
-          B --> G[/Another/]
-          C ==>|One| D[Laptop]
-          C -->|Two| E[iPhone]
-          C -->|Three| F[ Car]
-          subgraph section
-            C
-            D
-            E
-            F
-            G
-          end
-  </div>
-  <div class="mermaid">    stateDiagram-v2
-        State1: The state with a note
-        note right of State1
-            Important information! You can write
-            notes.
-        end note
-        State1 --> State2
-        note left of State2 : This is the note to the left
-  </div>
-  <h4 id="gantt-graph">gantt graph <a href="#gantt-graph">¶</a></h4><div class="mermaid">gantt
-    title A Gantt Diagram
-    dateFormat  YYYY-MM-DD
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
-  </div>
-  <h4 id="user-journey-diagram">User Journey Diagram <a href="#user-journey-diagram">¶</a></h4><div class="mermaid">journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>
-    mermaid.initialize({ startOnLoad: true });
-  </script>
-  
-        </div>
-        <div class="post_extra mb-2">
-          
-<div onclick="topFunction()" id="top" class="copy" data-before="Back To Top" data-after="Back To Top">
-  <svg class="icon">
-    <use xlink:href="#copy"></use>
-  </svg>
-</div>
-
-<script>
-backtotop = document.getElementById("top");
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    backtotop.style.display = "block";
-  } else {
-    backtotop.style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
-}
-</script>
-        </div>
-        <div>
-        
-        </div>
-      </div>
-    </div>
-    <a href="https://blog.timchenko.pp.ua" class="post_nav"><span class="post_next">The Latest 
-      <svg class="icon icon_scale">
-        <use xlink:href="#double-arrow"></use>
-      </svg>
-    </span></a>
-  </div>
-
-    </main>
-    <footer class="footer wrap pale">
-  <p>&copy;&nbsp;<span class="year"></span>&nbsp;Andriy Timchenko Blog</p>
-  <p class="attribution upcase">Powered by  <a href = 'https://gohugo.io/' target = '_blank' title = 'Powered by HOGO' rel = 'nonopener'>hugo</a></p>
-</footer>
-
-
-<script src="https://blog.timchenko.pp.ua/js/index.min.40853a54ba5fb54986b66f5b3a75d5c248cdc334aff77fe9cca5c81413198cffff70423278566cab02428995ba81ea7de21787edfd1e0da1ed39c4260b1aceea.js"></script>
-
-    <svg width="0" height="0" class="hidden">
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
-    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
-  </symbol>
-  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
-    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
-  </symbol>
-</svg>
-  </body>
-</html>
+<!doctype html><html lang=en><head><title>Diagram support hugo v0.93.0 mermaid diagrams | Andriy Timchenko Blog</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=keywords content="Andriy Timchenko Blog"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="Diagram Support Hugo v0.93.0 - Mermaid Diagrams"><meta property="og:description" content="Hugo currently does not provide default templates for Mermaid diagrams. But you can easily add your own. One way to do it would be to create"><meta property="og:url" content="https://blog.timchenko.pp.ua/post/diagram-support/"><meta property="og:image" content="https://blog.timchenko.pp.ua/images/diagram-support.webp"><link rel=canonical href=https://blog.timchenko.pp.ua/post/diagram-support/><link rel=apple-touch-icon sizes=180x180 href=https://blog.timchenko.pp.ua/images/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://blog.timchenko.pp.ua/images/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://blog.timchenko.pp.ua/images/icons/favicon-16x16.png><link rel=manifest href=https://blog.timchenko.pp.ua/images/icons/site.webmanifest><link rel=stylesheet href=https://blog.timchenko.pp.ua/css/styles.4d0d527480b2d0e79ed8d0c056ac2e0cc61b654364d4cf2ad21dcc245a636c8395f9965e28a8e54a7072a4450b931aaa28f92123db3b1a75b1a4daa037c1d1cc.css integrity="sha512-TQ1SdICy0Oee2NDAVqwuDMYbZUNk1M8q0h3MJFpjbIOV+ZZeKKjlSnBypEULkxqqKPkhI9s7GnWxpNqgN8HRzA=="></head><body><div class=nav-drop><div class=nav-body><a href=https://blog.timchenko.pp.ua/about/ class=nav_item>About</a>
+<a href=https://blog.timchenko.pp.ua class=nav_item>Blog</a>
+<a href=https://blog.timchenko.pp.ua/categories class=nav_item>Category</a>
+<a href=https://blog.timchenko.pp.ua/tags class=nav_item>Tag</a><div class=nav-close></div><div class=color_mode><label for=mode>Toggle Dark Mode</label>
+<input type=checkbox class=color_choice id=mode></div></div></div><header class=nav><nav class=nav-menu><a href=https://blog.timchenko.pp.ua class="nav-brand nav_item">Andriy Timchenko Blog</a><div class=nav_bar-wrap><div class=nav_bar></div></div></nav></header><main><div class="wrap mt post"><div><p class=post_date>20. August 2022</p><h1 class=post_title>Diagram Support Hugo v0.93.0 - Mermaid Diagrams</h1><div class=post_body><div class=post_inner><img src=https://blog.timchenko.pp.ua/images/diagram-support.webp alt=diagram-support.webp class=post_thumbnail><p>Hugo currently does not provide default templates for Mermaid diagrams. But you can easily add your own. One way to do it would be to create</p><p><code>layouts/_default/_markup/render-codeblock-mermaid.html:</code></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=ln>1</span><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mermaid&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=ln>2</span><span class=cl>  {{- .Inner | safeHTML }}
+</span></span><span class=line><span class=ln>3</span><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=ln>4</span><span class=cl>{{ .Page.Store.Set &#34;hasMermaid&#34; true }}
+</span></span></code></pre></div><p>And then include this snippet at the bottom of the content template (below <code>.Content</code>):</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=ln>1</span><span class=cl>{{ if .Page.Store.Get &#34;hasMermaid&#34; }}
+</span></span><span class=line><span class=ln>2</span><span class=cl>  <span class=p>&lt;</span><span class=nt>script</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=ln>3</span><span class=cl>  <span class=p>&lt;</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=ln>4</span><span class=cl>    <span class=nx>mermaid</span><span class=p>.</span><span class=nx>initialize</span><span class=p>({</span> <span class=nx>startOnLoad</span><span class=o>:</span> <span class=kc>true</span> <span class=p>});</span>
+</span></span><span class=line><span class=ln>5</span><span class=cl>  <span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=ln>6</span><span class=cl>{{ end }}
+</span></span></code></pre></div><p>With that you can use the <code>mermaid</code> language in Markdown code blocks:</p><h4 id=gitgraph-diagrams>Gitgraph Diagrams <a href=#gitgraph-diagrams>¶</a></h4><div class=mermaid>gitGraph
+commit id: "ZERO"
+branch develop
+commit id:"A"
+checkout main
+commit id:"ONE"
+checkout develop
+commit id:"B"
+checkout main
+commit id:"TWO"
+cherry-pick id:"B"
+commit id:"THREE"
+checkout develop
+commit id:"C23"</div><h4 id=my-home-local-network-diaram>My Home Local Network diaram <a href=#my-home-local-network-diaram>¶</a></h4><div class=mermaid>graph TD
+FTT[ UT] --> |ftth| U(innbox G21)
+U[ Innbox G21] -->|wan| A(RBD53iG-5HacD2HnD)
+A[ RBD53iG-5HacD2HnD] -->|in| DNS(DNS)
+DNS[ DNS] --> |out| A[ RBD53iG-5HacD2HnD]
+A[ RBD53iG-5HacD2HnD] -->|lan| HS(Hassio)
+A[ RBD53iG-5HacD2HnD] -->|lan| T1(Desctop)
+A[ RBD53iG-5HacD2HnD] -->|lan| PS(POE)
+A[ RBD53iG-5HacD2HnD] -->|wlan| E[Cam w01]
+A[ RBD53iG-5HacD2HnD] -->|wlan| E2[Cam w02]
+A[ RBD53iG-5HacD2HnD] -->|wlan| E1[iPad2]
+PS -->|poe| R1[RLC 512]
+PS -->|poe| R2[RLC 512]
+HS <--> |usb| ZB( Coordinator )
+ZB[ Coordinator] --> |wbee| ZP1(bm1)
+ZB[ Coordinator] --> |wbee| ZP2(bm2)
+ZB[ Coordinator] --> |wbee| ZP3(dw1)
+ZB[ Coordinator] --> |wbee| ZP4(dw2)
+ZB[ Coordinator] --> |wbee| ZP5(lp1)
+ZB[ Coordinator] --> |wbee| ZP6(lp2)
+ZB[ Coordinator] --> |wbee| ZP7(qp)</div><h4 id=sequence-diagram>Sequence diagram <a href=#sequence-diagram>¶</a></h4><div class=mermaid>pie showData
+title Key elements in Product X
+"Calcium" : 42.96
+"Potassium" : 50.05
+"Magnesium" : 10.01
+"Iron" : 5</div><h2 id=a-stadium-shaped-node>A stadium-shaped node <a href=#a-stadium-shaped-node>¶</a></h2><div class=mermaid>erDiagram
+CUSTOMER ||--o{ ORDER : places
+ORDER ||--|{ LINE-ITEM : contains
+CUSTOMER }|..|{ DELIVERY-ADDRESS : uses</div><div class=mermaid>%%{init: {'theme':'base'}}%%
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+B --> G[/Another/]
+C ==>|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[ Car]
+subgraph section
+C
+D
+E
+F
+G
+end</div><div class=mermaid>stateDiagram-v2
+State1: The state with a note
+note right of State1
+Important information! You can write
+notes.
+end note
+State1 --> State2
+note left of State2 : This is the note to the left</div><h4 id=gantt-graph>gantt graph <a href=#gantt-graph>¶</a></h4><div class=mermaid>gantt
+title A Gantt Diagram
+dateFormat YYYY-MM-DD
+section Section
+A task :a1, 2014-01-01, 30d
+Another task :after a1 , 20d
+section Another
+Task in sec :2014-01-12 , 12d
+another task : 24d</div><h4 id=user-journey-diagram>User Journey Diagram <a href=#user-journey-diagram>¶</a></h4><div class=mermaid>journey
+title My working day
+section Go to work
+Make tea: 5: Me
+Go upstairs: 3: Me
+Do work: 1: Me, Cat
+section Go home
+Go downstairs: 5: Me
+Sit down: 5: Me</div><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
+<script>mermaid.initialize({startOnLoad:!0})</script></div><div class="post_extra mb-2"><div onclick=topFunction() id=top class=copy data-before="Back To Top" data-after="Back To Top"><svg class="icon"><use xlink:href="#copy"/></svg></div><script>backtotop=document.getElementById("top"),window.onscroll=function(){scrollFunction()};function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?backtotop.style.display="block":backtotop.style.display="none"}function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}</script></div><div></div></div></div><a href=https://blog.timchenko.pp.ua class=post_nav><span class=post_next>The Latest<svg class="icon icon_scale"><use xlink:href="#double-arrow"/></svg></span></a></div></main><footer class="footer wrap pale"><p>&copy;&nbsp;<span class=year></span>&nbsp;Andriy Timchenko Blog</p><p class="attribution upcase">Powered by <a href=https://gohugo.io/ target=_blank title='Powered by HOGO' rel=nonopener>hugo</a></p></footer><script src=https://blog.timchenko.pp.ua/js/index.min.40853a54ba5fb54986b66f5b3a75d5c248cdc334aff77fe9cca5c81413198cffff70423278566cab02428995ba81ea7de21787edfd1e0da1ed39c4260b1aceea.js></script><svg width="0" height="0" class="hidden"><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy"><path d="M502.714.0H240.428C194.178.0 153 42.425 153 87.429l-25.267.59c-46.228.0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249.0 87.428-42.424 87.428-87.428h21.857c46.25.0 87.429-42.424 87.429-87.428v-349.19L502.714.0zM459 655.715H131.143c-22.95.0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95.0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337.0 87.975.0 87.975.0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277.0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065.0-21.857 9.77-21.857 21.835s9.792 21.835 21.857 21.835h196.714c12.065.0 21.857-9.771 21.857-21.835.0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065.0-21.857 9.77-21.857 21.834.0 12.066 9.792 21.836 21.857 21.836h196.714c12.065.0 21.857-9.77 21.857-21.836.0-12.064-9.792-21.834-21.857-21.834z"/></symbol><symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow"><path d="M.595 39.653a1.318 1.318.0 010-1.864L16.55 21.833a1.318 1.318.0 000-1.863L.595 4.014a1.318 1.318.0 010-1.863L2.125.62a1.318 1.318.0 011.864.0l19.35 19.349a1.318 1.318.0 010 1.863l-19.35 19.35a1.318 1.318.0 01-1.863.0zm29 0a1.318 1.318.0 010-1.864L45.55 21.833a1.318 1.318.0 000-1.863L29.595 4.014a1.318 1.318.0 010-1.863l1.53-1.53a1.318 1.318.0 011.864.0l19.35 19.349a1.318 1.318.0 010 1.863l-19.35 19.35a1.318 1.318.0 01-1.863.0z"/></symbol></svg></body></html>

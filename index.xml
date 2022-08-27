@@ -1,143 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Andriy Timchenko Blog</title>
-    <link>https://blog.timchenko.pp.ua/</link>
-    <description>Recent content on Andriy Timchenko Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Aug 2019 00:52:59 +0300</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Home Assistant</title>
-      <link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid>
-      <description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andriy Timchenko Blog</title><link>https://blog.timchenko.pp.ua/</link><description>Recent content on Andriy Timchenko Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright><lastBuildDate>Sun, 25 Aug 2019 00:52:59 +0300</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant</title><link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link><pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/home-assistant.io/</guid><description>GET STARTED VIEW DEMO BROWSE 1900+ INTEGRATIONS
 Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 Awaken your home ¶Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-The first step is to install Home Assistant.</description>
-    </item>
-    
-    <item>
-      <title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title>
-      <link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid>
-      <description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
+The first step is to install Home Assistant.</description></item><item><title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title><link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link><pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid><description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
 Resolute: content is blocked in non-browser locations, such as ad-laden mobile apps and smart TVs
 Responsive: seamlessly speeds up the feel of everyday browsing by caching DNS queries
-Lightweight: runs smoothly with minimal hardware and software requirements</description>
-    </item>
-    
-    <item>
-      <title>Authoritative DNS name server - NSD</title>
-      <link>https://blog.timchenko.pp.ua/post/nsd/</link>
-      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/nsd/</guid>
-      <description>The NLnet Labs - Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description>
-    </item>
-    
-    <item>
-      <title>Validating, recursive, caching DNS resolver - Unbound</title>
-      <link>https://blog.timchenko.pp.ua/post/unbound/</link>
-      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/unbound/</guid>
-      <description>Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the Unbound mailing list. You can learn more about Unbound by reading our documentation.
-Compiling ¶Make sure you have the C toolchain, OpenSSL and its include files, and libexpat installed.</description>
-    </item>
-    
-    <item>
-      <title>Shinobi - The open source CCTV solution</title>
-      <link>https://blog.timchenko.pp.ua/post/shinobi-cctv/</link>
-      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/shinobi-cctv/</guid>
-      <description>Shinobi is Open Source, written in Node.js, and real easy to use. It is the future of CCTV and NVR for developers and end-users alike. It is catered to by professionals and most importantly by the one who created it.
+Lightweight: runs smoothly with minimal hardware and software requirements</description></item><item><title>Authoritative DNS name server - NSD</title><link>https://blog.timchenko.pp.ua/post/nsd/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/nsd/</guid><description>The NLnet Labs - Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description></item><item><title>Validating, recursive, caching DNS resolver - Unbound</title><link>https://blog.timchenko.pp.ua/post/unbound/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/unbound/</guid><description>Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the Unbound mailing list. You can learn more about Unbound by reading our documentation.
+Compiling ¶Make sure you have the C toolchain, OpenSSL and its include files, and libexpat installed.</description></item><item><title>Shinobi - The open source CCTV solution</title><link>https://blog.timchenko.pp.ua/post/shinobi-cctv/</link><pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/shinobi-cctv/</guid><description>Shinobi is Open Source, written in Node.js, and real easy to use. It is the future of CCTV and NVR for developers and end-users alike. It is catered to by professionals and most importantly by the one who created it.
 SHINOBI DOCS Get Started ¶Some Aspects ¶Shinobi can be used as a Baby Monitor, Construction Site Montage Viewer, Store Camera DVR, and much more.
-Defeats Limits ¶Don&amp;rsquo;t be held back by a maximum number of streams based on browser.</description>
-    </item>
-    
-    <item>
-      <title>Diagram Support Hugo v0.93.0 - Mermaid Diagrams</title>
-      <link>https://blog.timchenko.pp.ua/post/diagram-support/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/diagram-support/</guid>
-      <description>Hugo currently does not provide default templates for Mermaid diagrams. But you can easily add your own. One way to do it would be to create
+Defeats Limits ¶Don&amp;rsquo;t be held back by a maximum number of streams based on browser.</description></item><item><title>Diagram Support Hugo v0.93.0 - Mermaid Diagrams</title><link>https://blog.timchenko.pp.ua/post/diagram-support/</link><pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/diagram-support/</guid><description>Hugo currently does not provide default templates for Mermaid diagrams. But you can easily add your own. One way to do it would be to create
 layouts/_default/_markup/render-codeblock-mermaid.html:
 1&amp;lt;div class=&amp;#34;mermaid&amp;#34;&amp;gt; 2 {{- .Inner | safeHTML }} 3&amp;lt;/div&amp;gt; 4{{ .Page.Store.Set &amp;#34;hasMermaid&amp;#34; true }} And then include this snippet at the bottom of the content template (below .Content):
-1{{ if .Page.Store.Get &amp;#34;hasMermaid&amp;#34; }} 2 &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 3 &amp;lt;script&amp;gt; 4 mermaid.initialize({ startOnLoad: true }); 5 &amp;lt;/script&amp;gt; 6{{ end }} With that you can use the mermaid language in Markdown code blocks:</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://blog.timchenko.pp.ua/about/</link>
-      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/about/</guid>
-      <description>All the technologies that are in the posts of this blog, I use in my home network, and this blog is powered by HUGO
+1{{ if .Page.Store.Get &amp;#34;hasMermaid&amp;#34; }} 2 &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 3 &amp;lt;script&amp;gt; 4 mermaid.initialize({ startOnLoad: true }); 5 &amp;lt;/script&amp;gt; 6{{ end }} With that you can use the mermaid language in Markdown code blocks:</description></item><item><title>About Hugo</title><link>https://blog.timchenko.pp.ua/about/</link><pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/about/</guid><description>All the technologies that are in the posts of this blog, I use in my home network, and this blog is powered by HUGO
 Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
-https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://blog.timchenko.pp.ua/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://blog.timchenko.pp.ua/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/creating-a-new-theme/</guid>
-      <description>Introduction ¶This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://blog.timchenko.pp.ua/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://blog.timchenko.pp.ua/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo ¶Go to Hugo releases and download the appropriate version for your OS and architecture.
+https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description></item><item><title>Emoji Support</title><link>https://blog.timchenko.pp.ua/post/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p></description></item><item><title>Creating a New Theme</title><link>https://blog.timchenko.pp.ua/post/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/creating-a-new-theme/</guid><description>Introduction ¶This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description></item><item><title>(Hu)go Template Primer</title><link>https://blog.timchenko.pp.ua/post/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/goisforlovers/</guid><description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description></item><item><title>Getting Started with Hugo</title><link>https://blog.timchenko.pp.ua/post/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/hugoisforlovers/</guid><description>Step 1. Install Hugo ¶Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
 Step 2. Build the Docs ¶Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://blog.timchenko.pp.ua/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.timchenko.pp.ua/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static ¶Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://blog.timchenko.pp.ua/post/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/migrate-from-jekyll/</guid><description>Move static content to static ¶Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-  </channel>
-</rss>
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description></item></channel></rss>
