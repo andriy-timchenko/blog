@@ -10,28 +10,28 @@
   
   
 <meta name="keywords" content="Andriy Timchenko Blog">
-<meta property="og:locale" content='en_US'>
+<meta property="og:locale" content='en'>
 <meta property="og:type" content="article">
 <meta property="og:title" content="Migrate to Hugo from Jekyll">
 <meta property="og:description" content="Move static content to static ¶Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content">
-<meta property="og:url" content="https://blog.timchenko.pp.ua/post/migrate-from-jekyll/">
-<meta property="og:image" content="https://blog.timchenko.pp.ua/images/migrate-from-jekyll.webp">
-<link rel="canonical" href="https://blog.timchenko.pp.ua/post/migrate-from-jekyll/">
-<link rel="apple-touch-icon" sizes="180x180" href='https://blog.timchenko.pp.ua/images/icons/apple-touch-icon.png'>
-<link rel="icon" type="image/png" sizes="32x32" href='https://blog.timchenko.pp.ua/images/icons/favicon-32x32.png'>
-<link rel="icon" type="image/png" sizes='16x16' href='https://blog.timchenko.pp.ua/images/icons/favicon-16x16.png'>
-<link rel="manifest" href='https://blog.timchenko.pp.ua/images/icons/site.webmanifest'>
+<meta property="og:url" content="/post/migrate-from-jekyll/">
+<meta property="og:image" content="/images/migrate-from-jekyll.webp">
+<link rel="canonical" href="/post/migrate-from-jekyll/">
+<link rel="apple-touch-icon" sizes="180x180" href='/images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='/images/icons/favicon-16x16.png'>
+<link rel="manifest" href='/images/icons/site.webmanifest'>
 
-<link rel="stylesheet" href="https://blog.timchenko.pp.ua/css/styles.4d0d527480b2d0e79ed8d0c056ac2e0cc61b654364d4cf2ad21dcc245a636c8395f9965e28a8e54a7072a4450b931aaa28f92123db3b1a75b1a4daa037c1d1cc.css" integrity="sha512-TQ1SdICy0Oee2NDAVqwuDMYbZUNk1M8q0h3MJFpjbIOV&#43;ZZeKKjlSnBypEULkxqqKPkhI9s7GnWxpNqgN8HRzA==">
+<link rel="stylesheet" href="/css/styles.4d0d527480b2d0e79ed8d0c056ac2e0cc61b654364d4cf2ad21dcc245a636c8395f9965e28a8e54a7072a4450b931aaa28f92123db3b1a75b1a4daa037c1d1cc.css" integrity="sha512-TQ1SdICy0Oee2NDAVqwuDMYbZUNk1M8q0h3MJFpjbIOV&#43;ZZeKKjlSnBypEULkxqqKPkhI9s7GnWxpNqgN8HRzA==">
 </head>
 
   <body>
     <div class="nav-drop">
   <div class="nav-body">
-      <a href="https://blog.timchenko.pp.ua/about/" class="nav_item">About</a>
-      <a href="https://blog.timchenko.pp.ua" class="nav_item">Blog</a>
-      <a href="https://blog.timchenko.pp.ua/categories" class="nav_item">Category</a>
-      <a href="https://blog.timchenko.pp.ua/tags" class="nav_item">Tag</a>
+      <a href="/about/" class="nav_item">About</a>
+      <a href="/" class="nav_item">Blog</a>
+      <a href="/categories" class="nav_item">Category</a>
+      <a href="/tags" class="nav_item">Tag</a>
     <div class="nav-close"></div><div class="color_mode">
 <label for="mode">Toggle Dark Mode</label>
 <input type="checkbox" class="color_choice" id="mode">
@@ -41,7 +41,7 @@
 </div>
 <header class="nav">
   <nav class="nav-menu">
-    <a href="https://blog.timchenko.pp.ua" class="nav-brand nav_item">Andriy Timchenko Blog</a>
+    <a href="/" class="nav-brand nav_item">Andriy Timchenko Blog</a>
     <div class="nav_bar-wrap">
       <div class="nav_bar"></div>
     </div>
@@ -58,7 +58,7 @@
         <div class="post_inner">
         
           
-          <img src="https://blog.timchenko.pp.ua/images/migrate-from-jekyll.webp" alt="migrate-from-jekyll.webp" class="post_thumbnail">
+          <img src="/images/migrate-from-jekyll.webp" alt="migrate-from-jekyll.webp" class="post_thumbnail">
         
           <h2 id="move-static-content-to-static">Move static content to <code>static</code> <a href="#move-static-content-to-static">¶</a></h2><p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
 With Jekyll, something that looked like</p>
@@ -73,7 +73,7 @@ With Jekyll, something that looked like</p>
             logo.png
 </code></pre>
 <p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
-<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file <a href="#create-your-hugo-configuration-file">¶</a></h2><p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://blog.timchenko.pp.ua/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file <a href="#create-your-hugo-configuration-file">¶</a></h2><p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="/overview/configuration/">Hugo configuration documentation</a> for details.</p>
 <h2 id="set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code> <a href="#set-your-configuration-publish-folder-to-_site">¶</a></h2><p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html" target="_blank" rel="noopener"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
 <ol>
 <li>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</li>
@@ -92,9 +92,9 @@ With Jekyll, something that looked like</p>
 </code></pre>
 </li>
 </ol>
-<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates <a href="#convert-jekyll-templates-to-hugo-templates">¶</a></h2><p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/" target="_blank" rel="noopener">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://blog.timchenko.pp.ua/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates <a href="#convert-jekyll-templates-to-hugo-templates">¶</a></h2><p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/" target="_blank" rel="noopener">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
 <p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/" target="_blank" rel="noopener">heyitsalex.net</a> took me no more than a few hours.</p>
-<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes <a href="#convert-jekyll-plugins-to-hugo-shortcodes">¶</a></h2><p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/" target="_blank" rel="noopener">plugins</a>; Hugo has <a href="https://blog.timchenko.pp.ua/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes <a href="#convert-jekyll-plugins-to-hugo-shortcodes">¶</a></h2><p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/" target="_blank" rel="noopener">plugins</a>; Hugo has <a href="/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
 <h3 id="implementation">Implementation <a href="#implementation">¶</a></h3><p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb" target="_blank" rel="noopener"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
 <h4 id="jekylls-plugin">Jekyll&rsquo;s plugin: <a href="#jekylls-plugin">¶</a></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="ln"> 1</span><span class="cl">    <span class="k">module</span> <span class="nn">Jekyll</span>
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">      <span class="k">class</span> <span class="nc">ImageTag</span> <span class="o">&lt;</span> <span class="no">Liquid</span><span class="o">::</span><span class="no">Tag</span>
@@ -210,7 +210,7 @@ function topFunction() {
         </div>
       </div>
     </div>
-    <a href="https://blog.timchenko.pp.ua" class="post_nav"><span class="post_next">The Latest 
+    <a href="/" class="post_nav"><span class="post_next">The Latest 
       <svg class="icon icon_scale">
         <use xlink:href="#double-arrow"></use>
       </svg>
@@ -224,7 +224,7 @@ function topFunction() {
 </footer>
 
 
-<script src="https://blog.timchenko.pp.ua/js/index.min.40853a54ba5fb54986b66f5b3a75d5c248cdc334aff77fe9cca5c81413198cffff70423278566cab02428995ba81ea7de21787edfd1e0da1ed39c4260b1aceea.js"></script>
+<script src="/js/index.min.ee9dcceeab4b8cf35a24e5f22a450fa1fef2897068ea9a9a34a7de6d720a42b4c21b6ecef8c05bf1bdcb2b7e1ffd152b81b1976183571090ec6dc4bad22c7b3e.js"></script>
 
     <svg width="0" height="0" class="hidden">
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
