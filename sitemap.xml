@@ -2,109 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://blog.timchenko.pp.ua/categories/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/development/</loc>
+    <loc>https://blog.timchenko.pp.ua/categories/development/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/home-assistant/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/home-assistant/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/home-assistant.io/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/home-assistant.io/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/network/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/network/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/pi-hole/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/pi-hole/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/pi-hole.net/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/pi-hole.net/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/nsd/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/nsd/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/dns/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/dns/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/nsd/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/nsd/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/unbound/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/unbound/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/unbound/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/unbound/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/cctv/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/cctv/</loc>
     <lastmod>2022-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/shinobi/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/shinobi/</loc>
     <lastmod>2022-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/shinobi-cctv/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/shinobi-cctv/</loc>
     <lastmod>2022-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/diagram/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/diagram/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/diagram-support/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/diagram-support/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/mermaid/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/mermaid/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://blog.timchenko.pp.ua/about/</loc>
     <lastmod>2022-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://blog.timchenko.pp.ua/</loc>
     <lastmod>2019-08-25T00:52:59+03:00</lastmod>
   </url><url>
-    <loc>/tags/emoji/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/emoji-support/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/creating-a-new-theme/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/goisforlovers/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/development/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/hugoisforlovers/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/go/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/golang/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/golang/</loc>
+    <loc>https://blog.timchenko.pp.ua/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/templates/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/themes/</loc>
+    <loc>https://blog.timchenko.pp.ua/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/migrate-from-jekyll/</loc>
+    <loc>https://blog.timchenko.pp.ua/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>
