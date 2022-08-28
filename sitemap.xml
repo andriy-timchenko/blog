@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.timchenko.pp.ua/categories/</loc>
-    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/categories/development/</loc>
-    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/post/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/tags/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/tags/wifi/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/categories/wifi/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/post/wifi-and-zigbee-channels/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/tags/zigbee/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/categories/zigbee/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/categories/dns/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
@@ -24,12 +45,6 @@
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/post/pi-hole.net/</loc>
-    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.timchenko.pp.ua/post/</loc>
-    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.timchenko.pp.ua/tags/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/post/nsd/</loc>

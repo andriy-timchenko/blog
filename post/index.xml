@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Andriy Timchenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
-    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wifi and Zigbee Channels</title>
+      <link>https://blog.timchenko.pp.ua/post/wifi-and-zigbee-channels/</link>
+      <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/wifi-and-zigbee-channels/</guid>
+      <description>Changing Zigbee channel (placeholder)
+Please redo, move, or update this wiki page with relevant information but don&amp;rsquo;t delete it, as it provides some good information.
+WiFi and Zigbee channels ¶Reference chart of overlapping Zigbee and WiFi channels:
+Channel 16, 17 and 18 can get interference from subcarrier and are better avoided.
+ZigBee and WiFi Coexistence further describes the interference between WiFi and Zigbee channels.
+The &amp;ldquo;default&amp;rdquo; primary Zigbee Light Link channels are 11, 15, 20 and 25.</description>
+    </item>
+    
     <item>
       <title>Home Assistant</title>
       <link>https://blog.timchenko.pp.ua/post/home-assistant.io/</link>
