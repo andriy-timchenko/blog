@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dns on Andriy Timchenko Blog</title><link>https://blog.timchenko.pp.ua/categories/dns/</link><description>Recent content in dns on Andriy Timchenko Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright><lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/categories/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title><link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link><pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid><description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dns on Andriy Timchenko Blog</title>
+    <link>https://blog.timchenko.pp.ua/categories/dns/</link>
+    <description>Recent content in dns on Andriy Timchenko Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
+    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/categories/dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pi-hole® - Network-wide ad blocking via your own Linux hardware</title>
+      <link>https://blog.timchenko.pp.ua/post/pi-hole.net/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/pi-hole.net/</guid>
+      <description>The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software. ¶ Easy-to-install: our versatile installer walks you through the process and takes less than ten minutes
 Resolute: content is blocked in non-browser locations, such as ad-laden mobile apps and smart TVs
 Responsive: seamlessly speeds up the feel of everyday browsing by caching DNS queries
-Lightweight: runs smoothly with minimal hardware and software requirements</description></item><item><title>Authoritative DNS name server - NSD</title><link>https://blog.timchenko.pp.ua/post/nsd/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/nsd/</guid><description>The NLnet Labs - Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description></item><item><title>Validating, recursive, caching DNS resolver - Unbound</title><link>https://blog.timchenko.pp.ua/post/unbound/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://blog.timchenko.pp.ua/post/unbound/</guid><description>Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the Unbound mailing list. You can learn more about Unbound by reading our documentation.
-Compiling ¶Make sure you have the C toolchain, OpenSSL and its include files, and libexpat installed.</description></item></channel></rss>
+Lightweight: runs smoothly with minimal hardware and software requirements</description>
+    </item>
+    
+    <item>
+      <title>Authoritative DNS name server - NSD</title>
+      <link>https://blog.timchenko.pp.ua/post/nsd/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/nsd/</guid>
+      <description>The NLnet Labs - Name Server Daemon (NSD) is an authoritative DNS name server. It has been developed for operations in environments where speed, reliability, stability and security are of high importance. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the NSD mailing list. You can learn more about NSD by reading our documentation.</description>
+    </item>
+    
+    <item>
+      <title>Validating, recursive, caching DNS resolver - Unbound</title>
+      <link>https://blog.timchenko.pp.ua/post/unbound/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/unbound/</guid>
+      <description>Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you have any feedback, we would love to hear from you. Don’t hesitate to create an issue on Github or post a message on the Unbound mailing list. You can learn more about Unbound by reading our documentation.
+Compiling ¶Make sure you have the C toolchain, OpenSSL and its include files, and libexpat installed.</description>
+    </item>
+    
+  </channel>
+</rss>
