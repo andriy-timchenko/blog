@@ -100,6 +100,15 @@ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma htt
     </item>
     
     <item>
+      <title>Feedback Form</title>
+      <link>https://blog.timchenko.pp.ua/feedback/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/feedback/</guid>
+      <description> Your Name: Your Email: Message: Send Message </description>
+    </item>
+    
+    <item>
       <title>Emoji Support</title>
       <link>https://blog.timchenko.pp.ua/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
