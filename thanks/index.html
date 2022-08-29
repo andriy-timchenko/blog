@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
   <head>
-  <title>Validating, recursive, caching DNS resolver unbound | Andriy Timchenko Blog</title>
+  <title>Thanks | Andriy Timchenko Blog</title>
   <meta charset='utf-8'>
   <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +12,12 @@
 <meta name="keywords" content="Andriy Timchenko Blog">
 <meta property="og:locale" content='en'>
 <meta property="og:type" content="article">
-<meta property="og:title" content="Validating, recursive, caching DNS resolver - Unbound">
-<meta property="og:description" content="Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you">
-<meta property="og:url" content="https://blog.timchenko.pp.ua/post/unbound/">
-<meta property="og:image" content="https://blog.timchenko.pp.ua/images/post/Unbound_FC_Shaded_cropped.webp">
-<link rel="canonical" href="https://blog.timchenko.pp.ua/post/unbound/"><link rel="apple-touch-icon" sizes="180x180" href='https://blog.timchenko.pp.ua/images/icons/apple-touch-icon.png'>
+<meta property="og:title" content="Thanks">
+<meta property="og:description" content="Thank You! ¶You form submission has been received
+Back to site">
+<meta property="og:url" content="https://blog.timchenko.pp.ua/thanks/">
+<meta property="og:image" content="https://blog.timchenko.pp.ua/images/feed-back-form.webp">
+<link rel="canonical" href="https://blog.timchenko.pp.ua/thanks/"><link rel="apple-touch-icon" sizes="180x180" href='https://blog.timchenko.pp.ua/images/icons/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='https://blog.timchenko.pp.ua/images/icons/favicon-32x32.png'>
 <link rel="icon" type="image/png" sizes='16x16' href='https://blog.timchenko.pp.ua/images/icons/favicon-16x16.png'>
 <link rel="manifest" href='https://blog.timchenko.pp.ua/images/icons/site.webmanifest'>
@@ -52,52 +53,16 @@
     <main>
       
   <div class="wrap mt post">
-    <div><p class="post_date">24. August 2022</p>
-      <h1 class="post_title">Validating, recursive, caching DNS resolver - Unbound</h1>
+    <div><p class="post_date">09. August 2022</p>
+      <h1 class="post_title">Thanks</h1>
       <div class="post_body">
         <div class="post_inner">
         
           
-          <img src="https://blog.timchenko.pp.ua/images/post/Unbound_FC_Shaded_cropped.webp" alt="post/Unbound_FC_Shaded_cropped.webp" class="post_thumbnail">
+          <img src="https://blog.timchenko.pp.ua/images/feed-back-form.webp" alt="feed-back-form.webp" class="post_thumbnail">
         
-          <p><a href="https://www.nlnetlabs.nl/projects/unbound/about/" target="_blank" rel="noopener">Unbound</a> is a validating, recursive, caching DNS resolver. It is designed to be
-fast and lean and incorporates modern features based on open standards. If you
-have any feedback, we would love to hear from you. Don’t hesitate to
-<a href="https://github.com/NLnetLabs/unbound/issues/new" target="_blank" rel="noopener">create an issue on Github</a>
-or post a message on the <a href="https://lists.nlnetlabs.nl/mailman/listinfo/unbound-users" target="_blank" rel="noopener">Unbound mailing list</a>.
-You can learn more about Unbound by reading our
-<a href="https://unbound.docs.nlnetlabs.nl/" target="_blank" rel="noopener">documentation</a>.</p>
-<h4 id="compiling">Compiling <a href="#compiling">¶</a></h4><p>Make sure you have the C toolchain, OpenSSL and its include files, and libexpat
-installed. Unbound can be compiled and installed using:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">./configure &amp;&amp; make &amp;&amp; make install
-</span></span></code></pre></div><p>You can use libevent if you want. libevent is useful when using many (10000)
-outgoing ports. By default max 256 ports are opened at the same time and the
-builtin alternative is equally capable and a little faster.</p>
-<p>Use the <code>--with-libevent=dir</code> configure option to compile Unbound with libevent
-support.</p>
-<h4 id="unbound-configuration">Unbound configuration <a href="#unbound-configuration">¶</a></h4><p>All of Unbound&rsquo;s configuration options are described in the man pages, which
-will be installed and are available on the Unbound
-<a href="https://unbound.docs.nlnetlabs.nl/" target="_blank" rel="noopener">documentation page</a>.</p>
-<p>An example configuration file is located in
-<a href="https://github.com/NLnetLabs/unbound/blob/master/doc/example.conf.in" target="_blank" rel="noopener">doc/example.conf</a>.</p>
-<h4 id="security-policy">Security Policy <a href="#security-policy">¶</a></h4><h4 id="supported-versions">Supported Versions <a href="#supported-versions">¶</a></h4><p>NLnet Labs adheres to the straightforward, semantic versioning scheme that is
-commonly used in the software industry.</p>
-<p>Support is provided in respect of the latest release, i.e. releases with the
-highest minor and patch version level. We do not backport security fixes to
-older (minor) versions. In the event a new major version is released (e.g.  from
-3.2.18 to 4.0.0), support will also be provided on the latest minor  version of
-the previous major version (3.2.18) for a period of one year from the release of
-the new major version (4.0.0).</p>
-<p>In the event that, during this period, a new patch or minor version of the
-previous major version is released, then support on these versions will only be
-provided for the remainder of the one-year-period.</p>
-<p>You can find detailed information on our software support policy here:</p>
-<p><a href="https://www.nlnetlabs.nl/support/software-support-policy/" target="_blank" rel="noopener">https://www.nlnetlabs.nl/support/software-support-policy/</a></p>
-<h4 id="reporting-a-vulnerability">Reporting a Vulnerability <a href="#reporting-a-vulnerability">¶</a></h4><p>We take security very seriously. If you have discovered a security vulnerability
-in one of our projects and you would like to report it to us, you can send an
-encrypted message to our Security Entry Point.</p>
-<p>Details are described here:</p>
-<p><a href="https://www.nlnetlabs.nl/security-report/" target="_blank" rel="noopener">https://www.nlnetlabs.nl/security-report/</a></p>
+          <h2 id="thank-you">Thank You! <a href="#thank-you">¶</a></h2><p>You form submission has been received</p>
+<p><a href="https://blog.timchenko.pp.ua/">Back to site</a></p>
   
         </div>
         <div class="post_extra mb-2">
