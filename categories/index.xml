@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Andriy Timchenko Blog</title>
+    <title>Categories on Andriy Timchenko Blog (test version)</title>
     <link>https://blog.timchenko.pp.ua/categories/</link>
-    <description>Recent content in Categories on Andriy Timchenko Blog</description>
+    <description>Recent content in Categories on Andriy Timchenko Blog (test version)</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
     <lastBuildDate>Sat, 27 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/categories/index.xml" rel="self" type="application/rss+xml" />
