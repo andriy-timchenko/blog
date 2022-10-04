@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Andriy Timchenko Blog (test version)</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Andriy Timchenko; All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.timchenko.pp.ua/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS Transform &amp; Transition</title>
+      <link>https://blog.timchenko.pp.ua/post/css-rotate/</link>
+      <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.timchenko.pp.ua/post/css-rotate/</guid>
+      <description> CSS rotate property 🧵 Create color changing rotating box with pure CSS </description>
+    </item>
+    
     <item>
       <title>Wifi and Zigbee Channels</title>
       <link>https://blog.timchenko.pp.ua/post/wifi-and-zigbee-channels/</link>

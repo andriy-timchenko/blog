@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.timchenko.pp.ua/post/css-rotate/</loc>
+    <lastmod>2022-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/post/</loc>
+    <lastmod>2022-09-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.timchenko.pp.ua/categories/</loc>
     <lastmod>2022-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/categories/development/</loc>
-    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.timchenko.pp.ua/post/</loc>
     <lastmod>2022-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/tags/</loc>
@@ -84,6 +87,9 @@
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/about/</loc>
+    <lastmod>2022-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.timchenko.pp.ua/box/</loc>
     <lastmod>2022-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.timchenko.pp.ua/feedback/</loc>

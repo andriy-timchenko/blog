@@ -76,12 +76,13 @@ With Jekyll, something that looked like</p>
 <h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file <a href="#create-your-hugo-configuration-file">¶</a></h2><p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://blog.timchenko.pp.ua/overview/configuration/">Hugo configuration documentation</a> for details.</p>
 <h2 id="set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code> <a href="#set-your-configuration-publish-folder-to-_site">¶</a></h2><p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html" target="_blank" rel="noopener"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
 <ol>
-<li>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</li>
-</ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">  git submodule deinit _site
-</span></span><span class="line"><span class="ln">2</span><span class="cl">  git rm _site
-</span></span><span class="line"><span class="ln">3</span><span class="cl">  git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
-</span></span></code></pre></div><ol start="2">
+<li>
+<p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
+<pre><code> git submodule deinit _site
+ git rm _site
+ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
+</code></pre>
+</li>
 <li>
 <p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
 <pre><code> {
